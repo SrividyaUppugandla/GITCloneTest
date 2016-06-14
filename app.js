@@ -20,6 +20,6 @@ app.use(function (req, res) {
 
 // START THE SERVER
 app.listen(port);
-console.log("App listening on port " + port + 'current working dir ' + process.cwd() + 'Environment:' + JSON.stringify(process.env));
+console.log("App listening on port " + port + 'current working dir ' + process.cwd() + 'Environment:' + process.env.linkedin);
 
 module.exports = app;
